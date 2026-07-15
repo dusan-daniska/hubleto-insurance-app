@@ -1,0 +1,17 @@
+namespace: Hubleto\App\Custom\Insurance
+appType: custom
+sidebarGroup: crm
+rootUrlSlug: insurance
+name: Insurance
+icon: fas fa-shield-alt
+author:
+  company: "Custom"
+highlight: Insurance policy, claims, and renewal management.
+tags:
+  - insurance
+  - crm
+  - claims
+requires:
+  - Hubleto\App\Community\Customers
+  - Hubleto\App\Community\Contacts
+  - Hubleto\App\Community\Calendar
