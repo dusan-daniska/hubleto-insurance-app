@@ -1,0 +1,8 @@
+<h1 class="app-main-title">{{ translate('Renewals') }}</h1>
+
+<hblreact-insurance-table-renewals
+  string:tag="table-renewals"
+  int:record-id="{{ viewParams.recordId }}"
+  string:view="{{ viewParams.view }}"
+  json:filters='{{ viewParams.filters|json_encode }}'
+></hblreact-insurance-table-renewals>
